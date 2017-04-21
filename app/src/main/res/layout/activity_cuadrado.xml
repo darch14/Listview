@@ -44,14 +44,16 @@
                 android:layout_width="154dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnCalcularCuadrado"
-                android:layout_weight="0.04" />
+                android:layout_weight="0.04"
+                android:onClick="Calcular_cuadrado" />
 
             <Button
                 android:text="@string/borrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnBorrarCuadrado"
-                android:layout_weight="0.19" />
+                android:layout_weight="0.19"
+                android:onClick="borrar" />
         </LinearLayout>
 
     </LinearLayout>

@@ -26,7 +26,16 @@
     <string name="valor_altura">Valor de la altura</string>
     <string name="cono">Cono</string>
     <string name="cubo">Cubo</string>
+    <string name="error">Por favor digite el valor</string>
     <string name="valor_arista_cubo">Valor de la arista</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="tipo_cuadrado">Area del cuadrado</string>
+    <string name="tipo_rectangulo">Area del rectangulo</string>
+    <string name="tipo_triangulo">Area del triangulo</string>
+    <string name="tipo_circulo">Area del circulo</string>
+    <string name="lado">Lado</string>
+    <string name="radio">Radio</string>
+    <string name="altura">Altura</string>
     <string-array name="opciones_principal">
         <item>@string/areas</item>
         <item>@string/volumenes</item>

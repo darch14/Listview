@@ -49,14 +49,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnCalcularRectangulo"
-                android:layout_weight="0.32" />
+                android:layout_weight="0.32"
+                android:onClick="calcularRectangulo" />
 
             <Button
                 android:text="@string/borrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnBorrarRectangulo"
-                android:layout_weight="0.32" />
+                android:layout_weight="0.32"
+                android:onClick="borrar" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

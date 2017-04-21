@@ -1,9 +1,16 @@
 package com.example.david.listview;
 
+import android.content.Intent;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class Triangulo extends AppCompatActivity {
+    private EditText val;
+    private Resources res;
+    private Intent i;
+    private Bundle b;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
